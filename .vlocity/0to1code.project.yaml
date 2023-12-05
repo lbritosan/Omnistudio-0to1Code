@@ -36,9 +36,9 @@ VlocityDataPackKeys:
     - objects/Account/fields/Sic.field
     - objects/Account/fields/SicDesc.field
     - objects/Account/fields/Site.field
-    - objects/Account/fields/SLA__c.field
     - objects/Account/fields/SLAExpirationDate__c.field
     - objects/Account/fields/SLASerialNumber__c.field
+    - objects/Account/fields/SLA__c.field
     - objects/Account/fields/TickerSymbol.field
     - objects/Account/fields/Tier.field
     - objects/Account/fields/Tradestyle.field

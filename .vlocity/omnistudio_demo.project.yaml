@@ -1,0 +1,1402 @@
+Name: OmniStudio Demo
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - Pricebook2/Standard
+    - Pricebook2/Standard Price Book
+    - appMenus/AppSwitcher.appMenu
+    - appMenus/Salesforce1.appMenu
+    - applications/OmniStudio_Console.app
+    - applications/OmniStudioConsoleHOWs.app
+    - assignmentRules/Case.assignmentRules
+    - assignmentRules/Lead.assignmentRules
+    - autoResponseRules/Case.autoResponseRules
+    - autoResponseRules/Lead.autoResponseRules
+    - certs/SelfSignedCert_09Nov2023_211643.crt
+    - classes/MyGlobalClassInterface_Omnistudio.cls
+    - classes/MyPicklistOptions.cls
+    - cleanDataServices/DataCloudGeoLocation.cleanDataService
+    - communities/Internal Zone.community
+    - contentassets/Badge_art.asset
+    - contentassets/Badge_art1.asset
+    - email/unfiled$public/CommerceReorderPortalInvitation.email
+    - email/unfiled$public/MarketingProductInquiryResponse.email
+    - email/unfiled$public/SalesNewCustomerEmail.email
+    - email/unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime.email
+    - email/unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty.email
+    - email/unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForAmazonChime.email
+    - email/unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForThirdParty.email
+    - email/unfiled$public/SupportCaseAssignmentNotification.email
+    - email/unfiled$public/SupportCaseCreatedPhoneInquiries.email
+    - email/unfiled$public/SupportCaseCreatedWebInquiries.email
+    - email/unfiled$public/SupportCaseResponse.email
+    - email/unfiled$public/SupportEscalatedCaseNotification.email
+    - email/unfiled$public/SupportEscalatedCaseReassignment.email
+    - email/unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE.email
+    - email/unfiled$public/SupportSelfServiceNewLoginandPassword.email
+    - email/unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE.email
+    - email/unfiled$public/SupportSelfServiceResetPassword.email
+    - email/unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE.email
+    - entitlementProcesses/standard case.entitlementProcess
+    - escalationRules/Case.escalationRules
+    - flexipages/Account_Record_Page.flexipage
+    - flexipages/Decision_Matrix_Record_Page.flexipage
+    - flexipages/Decision_Matrix_Version_Record_Page.flexipage
+    - flexipages/Expression_Set_Record_Page.flexipage
+    - flexipages/ExpressionSetConsole_UtilityBar.flexipage
+    - flexipages/LightningSales_UtilityBar.flexipage
+    - flexipages/LightningSalesConsole_UtilityBar.flexipage
+    - flexipages/LightningService_UtilityBar.flexipage
+    - flexipages/OmniStudio_Console_HOWs_UtilityBar.flexipage
+    - flexipages/OmniStudio_Console_UtilityBar.flexipage
+    - flexipages/teamAccount.flexipage
+    - flexipages/teamAccountHOWs.flexipage
+    - flexipages/Training_Template_Version.flexipage
+    - homePageLayouts/DE Default.homePageLayout
+    - labels/CustomLabels.labels
+    - layouts/%vlocity_namespace%__DRBatchQueue__c-%vlocity_namespace%__DRBatch Queue Layout
+    - layouts/%vlocity_namespace%__DRBulkData__c-%vlocity_namespace%__DataRaptor Bulk Data Layout
+    - layouts/%vlocity_namespace%__Interface_DRGeneric__c-%vlocity_namespace%__Interface_DRGeneric Layout
+    - layouts/%vlocity_namespace%__PDFTronEncryptionKey__c-%vlocity_namespace%__PDFTron Encryption Key Layout
+    - layouts/%vlocity_namespace%__TestResult__c-%vlocity_namespace%__Test Result Layout
+    - layouts/%vlocity_namespace%__VlocityDataPack__c-%vlocity_namespace%__Vlocity Data Pack Layout
+    - layouts/%vlocity_namespace%__VlocityDocuSignTemplate__c-%vlocity_namespace%__Vlocity DocuSign Template Layout
+    - layouts/%vlocity_namespace%__VlocityErrorLogEntry__c-%vlocity_namespace%__Vlocity Error Log Entry Layout
+    - layouts/%vlocity_namespace%__VlocityScheduledJob__c-%vlocity_namespace%__Vlocity Scheduled Job Layout
+    - layouts/%vlocity_namespace%__VlocityTrackingEntry__c-%vlocity_namespace%__Vlocity Tracking Entry Layout
+    - layouts/Account-Account %28Marketing%29 Layout
+    - layouts/Account-Account %28Sales%29 Layout
+    - layouts/Account-Account %28Support%29 Layout
+    - layouts/Account-Account Layout
+    - layouts/AdvTherapyFieldOptOverride-Advanced Therapy Field Optionality Override Layout
+    - layouts/AlternativePaymentMethod-Alternative Payment Method Layout
+    - layouts/ApiAnomalyEventStore-API Anomaly Event Store Layout
+    - layouts/AppointmentInvitation-Appointment Invitation Layout
+    - layouts/Asset-Asset Layout
+    - layouts/AssetAction-Asset Action Layout
+    - layouts/AssetActionSource-Asset Action Source Layout
+    - layouts/AssetRelationship-Asset Relationship Layout
+    - layouts/AssetStatePeriod-Asset State Period Layout
+    - layouts/AssignedResource-Assigned Resource Layout
+    - layouts/AuthorizationForm-Authorization Form Layout
+    - layouts/AuthorizationFormConsent-Authorization Form Consent Layout
+    - layouts/AuthorizationFormDataUse-Authorization Form Data Use Layout
+    - layouts/AuthorizationFormText-Authorization Form Text Layout
+    - layouts/BillingPeriodItem-Billing Period Item Layout
+    - layouts/BillingPeriodTaxItem-Billing Period Tax Item Layout
+    - layouts/BillingSchedule-Billing Schedule Layout
+    - layouts/BusinessBrand-Business Brand Layout
+    - layouts/BuyerAccount-Buyer Account Layout
+    - layouts/CalcMatrixColumnRange-Layout de Decision Matrix Column Range
+    - layouts/CalcProcStepRelationship-Expression Set Step Relationship Layout
+    - layouts/CalculationMatrix-Decision Matrix Layout
+    - layouts/CalculationMatrixColumn-Decision Matrix Column Layout
+    - layouts/CalculationMatrixRow-Decision Matrix Row Layout
+    - layouts/CalculationMatrixVersion-Decision Matrix Version Layout
+    - layouts/CalculationProcedure-Expression Set Layout
+    - layouts/CalculationProcedureStep-Expression Set Step Layout
+    - layouts/CalculationProcedureVariable-Expression Set Variable Layout
+    - layouts/CalculationProcedureVersion-Expression Set Version Layout
+    - layouts/Campaign-Campaign Layout
+    - layouts/CampaignMember-Campaign Member Page Layout
+    - layouts/CardPaymentMethod-Card Payment Method Layout
+    - layouts/CarePgmEnrolleeWkOrdStep-Care Program Enrollee Work Order Step Layout
+    - layouts/CarePgmEnrolleeWorkOrder-Care Program Enrollee Work Order Layout
+    - layouts/CartCheckoutSession-Cart Checkout Session Layout
+    - layouts/CartDeliveryGroup-Cart Delivery Group Layout
+    - layouts/CartDeliveryGroupMethod-Cart Delivery Group Method Layout
+    - layouts/CartItem-Cart Item Layout
+    - layouts/CartTax-Cart Tax Layout
+    - layouts/CartValidationOutput-Cart Validation Output Layout
+    - layouts/Case-Case %28Marketing%29 Layout
+    - layouts/Case-Case %28Sales%29 Layout
+    - layouts/Case-Case %28Support%29 Layout
+    - layouts/Case-Case Layout
+    - layouts/CaseClose-Close Case Layout
+    - layouts/CaseMilestone-Case Milestone Layout
+    - layouts/CommunityMemberLayout-Community Member Layout
+    - layouts/ConsumptionRate-Consumption Rate Layout
+    - layouts/ConsumptionSchedule-Consumption Schedule Layout
+    - layouts/Contact-Contact %28Marketing%29 Layout
+    - layouts/Contact-Contact %28Sales%29 Layout
+    - layouts/Contact-Contact %28Support%29 Layout
+    - layouts/Contact-Contact Layout
+    - layouts/ContactPointAddress-Contact Point Address Layout
+    - layouts/ContactPointEmail-Contact Point Email Layout
+    - layouts/ContactPointPhone-Contact Point Phone Layout
+    - layouts/ContactPointTypeConsent-Contact Point Type Consent Layout
+    - layouts/ContentVersion-Content Version Layout
+    - layouts/Contract-Contract Layout
+    - layouts/ContractLineItem-Contract Line Item Layout
+    - layouts/CredentialStuffingEventStore-Credential Stuffing Event Store Layout
+    - layouts/CreditMemo-Credit Memo Layout
+    - layouts/CreditMemoLine-Credit Memo Line Layout
+    - layouts/CssDetail-View Case Layout
+    - layouts/CssEdit-Log a Case Layout
+    - layouts/CustodyChainEntry-Custody Chain Entry Layout
+    - layouts/CustodyItem-Custody Item Layout
+    - layouts/CustodyVerfcTypeOverride-Custody Verification Type Override Layout
+    - layouts/Customer-Customer Layout
+    - layouts/DandBCompany-D&B Company Layout
+    - layouts/DataUseLegalBasis-Data Use Legal Basis Layout
+    - layouts/DataUsePurpose-Data Use Purpose Layout
+    - layouts/DelegatedAccount-External Managed Account Layout
+    - layouts/DigitalWallet-Digital Wallet Layout
+    - layouts/DocumentTemplate-Document Template Layout
+    - layouts/DuplicateRecordSet-Duplicate Record Set Layout
+    - layouts/EmailMessage-Email Message Layout
+    - layouts/EngagementChannelType-Engagement Channel Type Layout
+    - layouts/Entitlement-Entitlement Layout
+    - layouts/EntityMilestone-Object Milestone Layout
+    - layouts/Event-Event Layout
+    - layouts/ExplainabilityMsgTemplate-Explainability Message Template Layout
+    - layouts/ExpressionSet-__MISSING LABEL__ PropertyFile - val ExpressionSet not found in section StandardLayouts
+    - layouts/ExpressionSetVersion-__MISSING LABEL__ PropertyFile - val ExpressionSetVersion not found in section StandardLayouts
+    - layouts/FeedItem-Feed Item Layout
+    - layouts/FinanceBalanceSnapshot-Finance Balance Snapshot Layout
+    - layouts/FinanceTransaction-Finance Transaction Layout
+    - layouts/FulfillmentOrder-Fulfillment Order Layout
+    - layouts/FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout
+    - layouts/FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout
+    - layouts/FulfillmentOrderLineItem-Fulfillment Order Product Layout
+    - layouts/GeoCountry-Geo Country Layout
+    - layouts/Global-Global Layout
+    - layouts/Goal-Goal Layout
+    - layouts/GoalLink-Goal Link Layout
+    - layouts/Idea-Idea Layout
+    - layouts/Individual-Individual Layout
+    - layouts/Invoice-Invoice Layout
+    - layouts/InvoiceAddressGroup-Invoice Address Group Layout
+    - layouts/InvoiceLine-Invoice Line Layout
+    - layouts/JobTracker-Job Tracker Layout
+    - layouts/JobTracker-Job Tracker Layout - Summer '15
+    - layouts/JobTracker-Job Tracker Layout - Winter '16
+    - layouts/Lead-Lead %28Marketing%29 Layout
+    - layouts/Lead-Lead %28Sales%29 Layout
+    - layouts/Lead-Lead %28Support%29 Layout
+    - layouts/Lead-Lead Layout
+    - layouts/LegalEntity-Legal Entity Layout
+    - layouts/Macro-Macro Layout
+    - layouts/Metric-Completion Metric Layout
+    - layouts/Metric-Layout da Métrica de conclusão
+    - layouts/Metric-Metric Layout
+    - layouts/MetricDataLink-Metric Data Link Layout
+    - layouts/OmniDataPack-Omni DataPack Layout
+    - layouts/OmniDataTransform-Omni Data Transformation Layout
+    - layouts/OmniInteractionConfig-Omni Interaction Configuration Layout
+    - layouts/OmniProcess-Omni Process Layout
+    - layouts/OmniProcessElement-Omni Process Element Layout
+    - layouts/OmniUiCard-Omni UI Card Layout
+    - layouts/OperatingHours-Operating Hours Layout
+    - layouts/Opportunity-Opportunity %28Marketing%29 Layout
+    - layouts/Opportunity-Opportunity %28Sales%29 Layout
+    - layouts/Opportunity-Opportunity %28Support%29 Layout
+    - layouts/Opportunity-Opportunity Layout
+    - layouts/OpportunityLineItem-Opportunity Product Layout
+    - layouts/Order-Order Layout
+    - layouts/OrderAdjustmentGroup-Order Adjustment Group Layout
+    - layouts/OrderAdjustmentGroupSummary-Order Adjustment Group Summary Layout
+    - layouts/OrderDeliveryGroup-Order Delivery Group Layout
+    - layouts/OrderDeliveryGroupSummary-Order Delivery Group Summary Layout
+    - layouts/OrderDeliveryMethod-Order Delivery Method Layout
+    - layouts/OrderItem-Order Product Layout
+    - layouts/OrderItemAdjustmentLineItem-Order Product Adjustment Line Item Layout
+    - layouts/OrderItemAdjustmentLineSummary-Order Product Adjustment Line Item Summary Layout
+    - layouts/OrderItemSummary-Order Product Summary Layout
+    - layouts/OrderItemSummaryChange-Order Product Summary Change Layout
+    - layouts/OrderItemTaxLineItem-Order Product Tax Line Item Layout
+    - layouts/OrderItemTaxLineItemSummary-Order Product Tax Line Item Summary Layout
+    - layouts/OrderPaymentSummary-Order Payment Summary Layout
+    - layouts/OrderSummary-Order Summary Layout
+    - layouts/Payment-Payment Layout
+    - layouts/PaymentAuthAdjustment-Payment Authorization Adjustment Layout
+    - layouts/PaymentAuthorization-Payment Authorization Layout
+    - layouts/PaymentGateway-Payment Gateway Layout
+    - layouts/PaymentGatewayLog-Payment Gateway Log Layout
+    - layouts/PaymentGroup-Payment Group Layout
+    - layouts/PaymentLineInvoice-Payment Line Invoice Layout
+    - layouts/Pricebook2-Price Book Layout
+    - layouts/PricebookEntry-Price Book Entry Layout
+    - layouts/ProcessException-Process Exception Layout
+    - layouts/Product2-Product Layout
+    - layouts/ProductConsumptionSchedule-Product Consumption Schedule Layout
+    - layouts/ProfileSkill-Skill Layout
+    - layouts/ProfileSkillEndorsement-Endorsement Layout
+    - layouts/ProfileSkillUser-Skill User Layout
+    - layouts/QuickText-Quick Text Layout
+    - layouts/Quote-Quote Layout
+    - layouts/QuoteLineItem-Quote Line Item Layout
+    - layouts/Refund-Refund Layout
+    - layouts/RefundLinePayment-Refund Line Payment Layout
+    - layouts/ReportAnomalyEventStore-Report Anomaly Event Store Layout
+    - layouts/ResourceAbsence-Resource Absence Layout
+    - layouts/ResourcePreference-Resource Preference Layout
+    - layouts/ReturnOrder-Return Order Layout
+    - layouts/ReturnOrderItemAdjustment-Return Order Item Adjustment Layout
+    - layouts/ReturnOrderItemTax-Return Order Item Tax Layout
+    - layouts/ReturnOrderLineItem-Return Order Line Item Layout
+    - layouts/SalesChannel-Sales Channel Layout
+    - layouts/Scorecard-Scorecard Layout
+    - layouts/ScorecardAssociation-Scorecard Association Layout
+    - layouts/ScorecardMetric-Scorecard Metric Layout
+    - layouts/Seller-Seller Layout
+    - layouts/ServiceAppointment-Service Appointment Layout
+    - layouts/ServiceAppointmentGroup-Service Appointment Group Layout
+    - layouts/ServiceContract-Service Contract Layout
+    - layouts/ServiceResource-Service Resource Layout
+    - layouts/ServiceResourceCapacity-Resource Capacity Layout
+    - layouts/ServiceResourceSkill-Service Resource Skill Layout
+    - layouts/ServiceTerritory-Service Territory Layout
+    - layouts/ServiceTerritoryMember-Service Territory Member Layout
+    - layouts/ServiceTerritoryRelationship-Service Territory Relationship Layout
+    - layouts/SessionHijackingEventStore-Session Hijacking Event Store Layout
+    - layouts/Shift-Shift Layout
+    - layouts/ShiftWorkTopic-__MISSING LABEL__ PropertyFile - val ShiftWorkTopic not found in section StandardLayouts
+    - layouts/SkillRequirement-Skill Requirement Layout
+    - layouts/SocialPersona-Social Persona Layout
+    - layouts/SocialPost-Social Post Layout
+    - layouts/Solution-Solution Layout
+    - layouts/Task-Task Layout
+    - layouts/Team-Team Layout
+    - layouts/TeamMember-Team Member Layout
+    - layouts/ThreatDetectionFeedback-Threat Detection Feedback Layout
+    - layouts/TimeSlot-Time Slot Layout
+    - layouts/User-User Layout
+    - layouts/UserProvAccount-User Provisioning Account Layout
+    - layouts/UserProvisioningLog-User Provisioning Log Layout
+    - layouts/UserProvisioningRequest-User Provisioning Request Layout
+    - layouts/Waitlist-__MISSING LABEL__ PropertyFile - val Waitlist not found in section StandardLayouts
+    - layouts/WebCart-Cart Layout
+    - layouts/WebCartAdjustmentBasis-Cart Adjustment Basis Layout
+    - layouts/WebCartAdjustmentGroup-Cart Adjustment Group Layout
+    - layouts/WebStore-Store Layout
+    - layouts/WebStoreConfig-Web Store Configuration Layout
+    - layouts/WorkAccess-Access Layout
+    - layouts/WorkBadge-Badge Received Layout
+    - layouts/WorkBadgeDefinition-Badge Layout
+    - layouts/WorkCoaching-Coaching Layout
+    - layouts/WorkFeedback-Feedback Layout
+    - layouts/WorkFeedback-Feedback Layout - Summer '15
+    - layouts/WorkFeedback-Feedback Layout - Winter '16
+    - layouts/WorkFeedbackQuestion-Feedback Question Layout
+    - layouts/WorkFeedbackQuestion-Feedback Question Layout - Summer '15
+    - layouts/WorkFeedbackQuestion-Feedback Question Layout - Winter '16
+    - layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout
+    - layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer '15
+    - layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter '16
+    - layouts/WorkFeedbackRequest-Feedback Request Layout
+    - layouts/WorkFeedbackRequest-Feedback Request Layout - Summer '15
+    - layouts/WorkFeedbackRequest-Feedback Request Layout - Winter '16
+    - layouts/WorkFeedbackTemplate-Feedback Template Layout
+    - layouts/WorkGoal-Goal Layout
+    - layouts/WorkGoalCollaborator-Goal Collaborator Layout
+    - layouts/WorkGoalLink-Goal Link Layout
+    - layouts/WorkOrder-Work Order Layout
+    - layouts/WorkOrderLineItem-Work Order Line Item Layout
+    - layouts/WorkPerformanceCycle-Performance Cycle Layout
+    - layouts/WorkPerformanceCycle-Performance Cycle Layout - Summer '15
+    - layouts/WorkPerformanceCycle-Performance Cycle Layout - Winter '16
+    - layouts/WorkPlan-Work Plan Layout
+    - layouts/WorkPlanTemplate-Work Plan Template Layout
+    - layouts/WorkPlanTemplateEntry-Work Plan Template Entry Layout
+    - layouts/WorkProcedure-Work Procedure Layout
+    - layouts/WorkProcedureStep-Work Procedure Step Layout
+    - layouts/WorkReward-Reward Layout
+    - layouts/WorkRewardFund-Reward Fund Layout
+    - layouts/WorkRewardFundType-Reward Fund Type Layout
+    - layouts/WorkStep-Work Step Layout
+    - layouts/WorkStepTemplate-Work Step Template Layout
+    - layouts/WorkThanks-Thanks Layout
+    - layouts/WorkType-Work Type Layout
+    - layouts/WorkTypeExtension-Work Type Extension Layout
+    - layouts/WorkTypeGroup-Work Type Group Layout
+    - layouts/WorkTypeGroupMember-Work Type Group Member Layout
+    - layouts/WorkTypeStep-__MISSING LABEL__ PropertyFile - val WorkTypeStep not found in section StandardLayouts
+    - layouts/WorkTypeStepLdTimeOvride-Work Type Step Lead Time Override Layout
+    - layouts/WorkTypeSvcTerrSchdPrio-Work Type Service Territory Scheduling Priority Layout
+    - lwc/cfFC_AccountDetails
+    - lwc/cfFC_AccountDetails_1_LBS
+    - lwc/cfFC_AccountDetails_2_LBS
+    - lwc/cfFC_Block_State_Elements_1_Oto1_LBS
+    - lwc/cfFC_ChildContacts
+    - lwc/cfFC_ChildContacts_1_LBS
+    - lwc/cfFC_Custom_DataSource_1_Oto1Code_LBS
+    - lwc/cfFC_DataRaptorAsDataSource_1_Oto1Code_LBS
+    - lwc/cfFC_Field_text_Image_Icon_Elements_1_Oto1_LBS
+    - lwc/cfFC_IP_AsDataSource_1_Oto1Code_LBS
+    - lwc/cfFC_Parent_Accounts_1_LBS
+    - lwc/cfFC_SOQL_DataSource_1_LBS
+    - lwc/cfFSCTransactionDisputeManagementDisputeSelectedTransactions
+    - lwc/cfSampleAccount
+    - lwc/cfSampleAccount_1_Salesforce
+    - lwc/cfSampleCases
+    - lwc/cfSampleCases_1_Salesforce
+    - lwc/cfSampleCasesParent
+    - lwc/cfSampleCasesParent_1_Salesforce
+    - lwc/cfSampleContacts
+    - lwc/cfSampleContacts_1_Salesforce
+    - lwc/cfSampleContactsHOWs
+    - lwc/cfSampleContactsParent
+    - lwc/cfSampleContactsParent_1_Salesforce
+    - lwc/cfSampleWeather
+    - lwc/cfSampleWeather_1_Salesforce
+    - lwc/cfSampleWeatherForecast
+    - lwc/cfSampleWeatherForecast_1_Salesforce
+    - lwc/cfTeamAccount335_1_Salesforce
+    - lwc/cfTeamCases335
+    - lwc/cfTeamCases335_1_Salesforce
+    - lwc/cfTeamCasesParent_1_Salesforce
+    - lwc/cfTeamContactsParent
+    - lwc/cfTeamContactsParent_1_Salesforce
+    - lwc/cfTeamStarterCases_1_Salesforce
+    - lwc/cfTeamStarterContacts_1_Salesforce
+    - lwc/cfTeamStarterWeather_1_Salesforce
+    - lwc/cfTeamStarterWeatherCelsius_1_Salesforce
+    - lwc/cfTeamStarterWeatherForecast_1_Salesforce
+    - lwc/docGenerationSampleFndSingleDocxLwcEnglish
+    - lwc/docGenerationSampleFndSingleDocxServersideLwcEnglish
+    - lwc/reusableSampleEnglish
+    - lwc/sampleEditAccountEnglish
+    - lwc/sampleEditCaseEnglish
+    - lwc/sampleEditContactEnglish
+    - lwc/sampleUpdateAccountPrimaryContactEnglish
+    - lwc/teamUpdateAccountPrimaryContactEnglish
+    - lwc/updateAccountDetailsEnglish
+    - matchingRules/Account.matchingRule
+    - matchingRules/Contact.matchingRule
+    - matchingRules/Individual.matchingRule
+    - matchingRules/Lead.matchingRule
+    - milestoneTypes/Close Case.milestoneType
+    - milestoneTypes/Escalate Case.milestoneType
+    - milestoneTypes/First Response to Customer.milestoneType
+    - objects/Account/Account.object
+    - objects/AccountCleanInfo/AccountCleanInfo.object
+    - objects/AccountContactRole/AccountContactRole.object
+    - objects/Activity/Activity.object
+    - objects/AlternativePaymentMethod/AlternativePaymentMethod.object
+    - objects/ApiAnomalyEventStore/ApiAnomalyEventStore.object
+    - objects/AppointmentCategory/AppointmentCategory.object
+    - objects/AppointmentInvitation/AppointmentInvitation.object
+    - objects/AppointmentInvitee/AppointmentInvitee.object
+    - objects/AppointmentScheduleLog/AppointmentScheduleLog.object
+    - objects/AppointmentTopicTimeSlot/AppointmentTopicTimeSlot.object
+    - objects/Asset/Asset.object
+    - objects/AssetAction/AssetAction.object
+    - objects/AssetActionSource/AssetActionSource.object
+    - objects/AssetRelationship/AssetRelationship.object
+    - objects/AssetStatePeriod/AssetStatePeriod.object
+    - objects/AssignedResource/AssignedResource.object
+    - objects/AssistantProgress/AssistantProgress.object
+    - objects/AssociatedLocation/AssociatedLocation.object
+    - objects/AuthorizationForm/AuthorizationForm.object
+    - objects/AuthorizationFormConsent/AuthorizationFormConsent.object
+    - objects/AuthorizationFormDataUse/AuthorizationFormDataUse.object
+    - objects/AuthorizationFormText/AuthorizationFormText.object
+    - objects/BusinessBrand/BusinessBrand.object
+    - objects/BuyerGroup/BuyerGroup.object
+    - objects/CalcMatrixColumnRange/CalcMatrixColumnRange.object
+    - objects/CalcProcStepRelationship/CalcProcStepRelationship.object
+    - objects/CalculationMatrix/CalculationMatrix.object
+    - objects/CalculationMatrixColumn/CalculationMatrixColumn.object
+    - objects/CalculationMatrixRow/CalculationMatrixRow.object
+    - objects/CalculationMatrixVersion/CalculationMatrixVersion.object
+    - objects/CalculationProcedure/CalculationProcedure.object
+    - objects/CalculationProcedureStep/CalculationProcedureStep.object
+    - objects/CalculationProcedureVariable/CalculationProcedureVariable.object
+    - objects/CalculationProcedureVersion/CalculationProcedureVersion.object
+    - objects/Campaign/Campaign.object
+    - objects/CampaignMember/CampaignMember.object
+    - objects/CardPaymentMethod/CardPaymentMethod.object
+    - objects/CartCheckoutSession/CartCheckoutSession.object
+    - objects/CartDeliveryGroup/CartDeliveryGroup.object
+    - objects/CartDeliveryGroupMethod/CartDeliveryGroupMethod.object
+    - objects/CartItem/CartItem.object
+    - objects/CartItemPriceAdjustment/CartItemPriceAdjustment.object
+    - objects/CartRelatedItem/CartRelatedItem.object
+    - objects/CartTax/CartTax.object
+    - objects/CartValidationOutput/CartValidationOutput.object
+    - objects/Case/Case.object
+    - objects/CaseContactRole/CaseContactRole.object
+    - objects/CaseMilestone/CaseMilestone.object
+    - objects/CaseRelatedIssue/CaseRelatedIssue.object
+    - objects/ChangeRequest/ChangeRequest.object
+    - objects/ChangeRequestRelatedIssue/ChangeRequestRelatedIssue.object
+    - objects/ChangeRequestRelatedItem/ChangeRequestRelatedItem.object
+    - objects/ChatterActivity/ChatterActivity.object
+    - objects/CollaborationGroup/CollaborationGroup.object
+    - objects/CollaborationGroupMember/CollaborationGroupMember.object
+    - objects/CommSubscription/CommSubscription.object
+    - objects/CommSubscriptionChannelType/CommSubscriptionChannelType.object
+    - objects/CommSubscriptionConsent/CommSubscriptionConsent.object
+    - objects/CommSubscriptionTiming/CommSubscriptionTiming.object
+    - objects/ConsumptionRate/ConsumptionRate.object
+    - objects/ConsumptionSchedule/ConsumptionSchedule.object
+    - objects/Contact/Contact.object
+    - objects/ContactCleanInfo/ContactCleanInfo.object
+    - objects/ContactPointAddress/ContactPointAddress.object
+    - objects/ContactPointConsent/ContactPointConsent.object
+    - objects/ContactPointEmail/ContactPointEmail.object
+    - objects/ContactPointPhone/ContactPointPhone.object
+    - objects/ContactPointTypeConsent/ContactPointTypeConsent.object
+    - objects/ContactRequest/ContactRequest.object
+    - objects/ContentVersion/ContentVersion.object
+    - objects/Contract/Contract.object
+    - objects/ContractContactRole/ContractContactRole.object
+    - objects/ContractLineItem/ContractLineItem.object
+    - objects/Coupon/Coupon.object
+    - objects/CredentialStuffingEventStore/CredentialStuffingEventStore.object
+    - objects/CreditMemo/CreditMemo.object
+    - objects/CreditMemoInvApplication/CreditMemoInvApplication.object
+    - objects/CreditMemoLine/CreditMemoLine.object
+    - objects/Customer/Customer.object
+    - objects/DandBCompany/DandBCompany.object
+    - objects/DataUseLegalBasis/DataUseLegalBasis.object
+    - objects/DataUsePurpose/DataUsePurpose.object
+    - objects/DigitalWallet/DigitalWallet.object
+    - objects/DocGenerationBatchProcess/DocGenerationBatchProcess.object
+    - objects/DocTemplateSectionCondition/DocTemplateSectionCondition.object
+    - objects/DocumentClause/DocumentClause.object
+    - objects/DocumentEnvelope/DocumentEnvelope.object
+    - objects/DocumentGenerationProcess/DocumentGenerationProcess.object
+    - objects/DocumentRecipient/DocumentRecipient.object
+    - objects/DocumentTemplate/DocumentTemplate.object
+    - objects/DocumentTemplateContentDoc/DocumentTemplateContentDoc.object
+    - objects/DocumentTemplateSection/DocumentTemplateSection.object
+    - objects/DocumentTemplateToken/DocumentTemplateToken.object
+    - objects/DuplicateRecordItem/DuplicateRecordItem.object
+    - objects/DuplicateRecordSet/DuplicateRecordSet.object
+    - objects/EmailMessage/EmailMessage.object
+    - objects/EngagementChannelType/EngagementChannelType.object
+    - objects/EngagementChannelWorkType/EngagementChannelWorkType.object
+    - objects/Entitlement/Entitlement.object
+    - objects/EntitlementContact/EntitlementContact.object
+    - objects/EntityMilestone/EntityMilestone.object
+    - objects/Event/Event.object
+    - objects/ExchangeUserMapping/ExchangeUserMapping.object
+    - objects/ExpressionFilter/ExpressionFilter.object
+    - objects/ExpressionFilterCriteria/ExpressionFilterCriteria.object
+    - objects/ExpressionSet/ExpressionSet.object
+    - objects/ExpressionSetVersion/ExpressionSetVersion.object
+    - objects/ExternalEventMapping/ExternalEventMapping.object
+    - objects/FeedItem/FeedItem.object
+    - objects/FinanceBalanceSnapshot/FinanceBalanceSnapshot.object
+    - objects/FinanceTransaction/FinanceTransaction.object
+    - objects/FlowOrchestrationInstance/FlowOrchestrationInstance.object
+    - objects/FlowOrchestrationStageInstance/FlowOrchestrationStageInstance.object
+    - objects/FlowOrchestrationStepInstance/FlowOrchestrationStepInstance.object
+    - objects/FlowOrchestrationWorkItem/FlowOrchestrationWorkItem.object
+    - objects/GeneratedDocument/GeneratedDocument.object
+    - objects/GeneratedDocumentSection/GeneratedDocumentSection.object
+    - objects/Idea/Idea.object
+    - objects/Image/Image.object
+    - objects/Incident/Incident.object
+    - objects/IncidentRelatedItem/IncidentRelatedItem.object
+    - objects/Individual/Individual.object
+    - objects/InventoryItemReservation/InventoryItemReservation.object
+    - objects/InventoryReservation/InventoryReservation.object
+    - objects/Invoice/Invoice.object
+    - objects/InvoiceLine/InvoiceLine.object
+    - objects/Lead/Lead.object
+    - objects/LeadCleanInfo/LeadCleanInfo.object
+    - objects/LearningAssignment/LearningAssignment.object
+    - objects/LearningAssignmentProgress/LearningAssignmentProgress.object
+    - objects/LearningLinkProgress/LearningLinkProgress.object
+    - objects/LegalEntity/LegalEntity.object
+    - objects/Location/Location.object
+    - objects/LocationGroup/LocationGroup.object
+    - objects/LocationGroupAssignment/LocationGroupAssignment.object
+    - objects/Macro/Macro.object
+    - objects/MacroAction/MacroAction.object
+    - objects/MacroInstruction/MacroInstruction.object
+    - objects/MacroUsage/MacroUsage.object
+    - objects/MessagingEndUser/MessagingEndUser.object
+    - objects/MessagingSession/MessagingSession.object
+    - objects/OmniDataPack/OmniDataPack.object
+    - objects/OmniDataTransform/OmniDataTransform.object
+    - objects/OmniDataTransformItem/OmniDataTransformItem.object
+    - objects/OmniESignatureTemplate/OmniESignatureTemplate.object
+    - objects/OmniProcess/OmniProcess.object
+    - objects/OmniProcessCompilation/OmniProcessCompilation.object
+    - objects/OmniProcessElement/OmniProcessElement.object
+    - objects/OmniProcessTransientData/OmniProcessTransientData.object
+    - objects/OmniScriptSavedSession/OmniScriptSavedSession.object
+    - objects/OmniUiCard/OmniUiCard.object
+    - objects/OperatingHours/OperatingHours.object
+    - objects/OperatingHoursHoliday/OperatingHoursHoliday.object
+    - objects/Opportunity/Opportunity.object
+    - objects/OpportunityCompetitor/OpportunityCompetitor.object
+    - objects/OpportunityContactRole/OpportunityContactRole.object
+    - objects/OpportunityLineItem/OpportunityLineItem.object
+    - objects/OpportunityRelatedDeleteLog/OpportunityRelatedDeleteLog.object
+    - objects/Order/Order.object
+    - objects/OrderItem/OrderItem.object
+    - objects/OrgDeleteRequest/OrgDeleteRequest.object
+    - objects/OrgMetricScanResult/OrgMetricScanResult.object
+    - objects/OrgMetricScanSummary/OrgMetricScanSummary.object
+    - objects/PartnerRole/PartnerRole.object
+    - objects/PartyConsent/PartyConsent.object
+    - objects/Payment/Payment.object
+    - objects/PaymentAuthAdjustment/PaymentAuthAdjustment.object
+    - objects/PaymentAuthorization/PaymentAuthorization.object
+    - objects/PaymentGateway/PaymentGateway.object
+    - objects/PaymentGroup/PaymentGroup.object
+    - objects/PaymentLineInvoice/PaymentLineInvoice.object
+    - objects/PaymentMethod/PaymentMethod.object
+    - objects/Pricebook2/Pricebook2.object
+    - objects/PricebookEntry/PricebookEntry.object
+    - objects/Problem/Problem.object
+    - objects/ProblemIncident/ProblemIncident.object
+    - objects/ProblemRelatedItem/ProblemRelatedItem.object
+    - objects/ProcessException/ProcessException.object
+    - objects/Product2/Product2.object
+    - objects/ProductAttribute/ProductAttribute.object
+    - objects/ProductAttributeSetProduct/ProductAttributeSetProduct.object
+    - objects/ProductCatalog/ProductCatalog.object
+    - objects/ProductCategory/ProductCategory.object
+    - objects/ProductCategoryProduct/ProductCategoryProduct.object
+    - objects/ProductConsumptionSchedule/ProductConsumptionSchedule.object
+    - objects/Promotion/Promotion.object
+    - objects/PromotionMarketSegment/PromotionMarketSegment.object
+    - objects/PromotionQualifier/PromotionQualifier.object
+    - objects/PromotionSegment/PromotionSegment.object
+    - objects/PromotionSegmentBuyerGroup/PromotionSegmentBuyerGroup.object
+    - objects/PromotionSegmentSalesStore/PromotionSegmentSalesStore.object
+    - objects/PromotionTarget/PromotionTarget.object
+    - objects/PromotionTier/PromotionTier.object
+    - objects/PromptAction/PromptAction.object
+    - objects/PromptError/PromptError.object
+    - objects/QuickText/QuickText.object
+    - objects/QuickTextUsage/QuickTextUsage.object
+    - objects/Quote/Quote.object
+    - objects/QuoteLineItem/QuoteLineItem.object
+    - objects/Recommendation/Recommendation.object
+    - objects/RecordAction/RecordAction.object
+    - objects/RecordMergeHistory/RecordMergeHistory.object
+    - objects/Refund/Refund.object
+    - objects/RefundLinePayment/RefundLinePayment.object
+    - objects/ReportAnomalyEventStore/ReportAnomalyEventStore.object
+    - objects/ResourceAbsence/ResourceAbsence.object
+    - objects/ResourcePreference/ResourcePreference.object
+    - objects/ReturnOrder/ReturnOrder.object
+    - objects/ReturnOrderItemAdjustment/ReturnOrderItemAdjustment.object
+    - objects/ReturnOrderItemTax/ReturnOrderItemTax.object
+    - objects/ReturnOrderLineItem/ReturnOrderLineItem.object
+    - objects/SalesStore/SalesStore.object
+    - objects/Scorecard/Scorecard.object
+    - objects/ScorecardAssociation/ScorecardAssociation.object
+    - objects/ScorecardMetric/ScorecardMetric.object
+    - objects/Seller/Seller.object
+    - objects/ServiceAppointment/ServiceAppointment.object
+    - objects/ServiceContract/ServiceContract.object
+    - objects/ServiceResource/ServiceResource.object
+    - objects/ServiceResourceSkill/ServiceResourceSkill.object
+    - objects/ServiceTerritory/ServiceTerritory.object
+    - objects/ServiceTerritoryMember/ServiceTerritoryMember.object
+    - objects/ServiceTerritoryWorkType/ServiceTerritoryWorkType.object
+    - objects/SessionHijackingEventStore/SessionHijackingEventStore.object
+    - objects/Shift/Shift.object
+    - objects/ShiftEngagementChannel/ShiftEngagementChannel.object
+    - objects/ShiftWorkTopic/ShiftWorkTopic.object
+    - objects/Site/Site.object
+    - objects/SkillRequirement/SkillRequirement.object
+    - objects/SocialPersona/SocialPersona.object
+    - objects/Solution/Solution.object
+    - objects/StreamActivityAccess/StreamActivityAccess.object
+    - objects/StreamingChannel/StreamingChannel.object
+    - objects/TableauHostMapping/TableauHostMapping.object
+    - objects/Task/Task.object
+    - objects/TimeSlot/TimeSlot.object
+    - objects/Topic/Topic.object
+    - objects/TopicAssignment/TopicAssignment.object
+    - objects/User/User.object
+    - objects/UserEsignVendorIdentifier/UserEsignVendorIdentifier.object
+    - objects/UserExternalCredential/UserExternalCredential.object
+    - objects/UserPrioritizedRecord/UserPrioritizedRecord.object
+    - objects/UserProvisioningRequest/UserProvisioningRequest.object
+    - objects/Waitlist/Waitlist.object
+    - objects/WaitlistParticipant/WaitlistParticipant.object
+    - objects/WaitlistServiceResource/WaitlistServiceResource.object
+    - objects/WaitlistWorkType/WaitlistWorkType.object
+    - objects/WebCart/WebCart.object
+    - objects/WebCartAdjustmentBasis/WebCartAdjustmentBasis.object
+    - objects/WebCartAdjustmentGroup/WebCartAdjustmentGroup.object
+    - objects/WebStore/WebStore.object
+    - objects/WebStoreBuyerGroup/WebStoreBuyerGroup.object
+    - objects/WebStoreCatalog/WebStoreCatalog.object
+    - objects/WebStoreInventorySource/WebStoreInventorySource.object
+    - objects/WorkOrder/WorkOrder.object
+    - objects/WorkOrderLineItem/WorkOrderLineItem.object
+    - objects/WorkPlan/WorkPlan.object
+    - objects/WorkPlanTemplate/WorkPlanTemplate.object
+    - objects/WorkPlanTemplateEntry/WorkPlanTemplateEntry.object
+    - objects/WorkStep/WorkStep.object
+    - objects/WorkStepTemplate/WorkStepTemplate.object
+    - objects/WorkType/WorkType.object
+    - objects/WorkTypeGroup/WorkTypeGroup.object
+    - objects/WorkTypeGroupMember/WorkTypeGroupMember.object
+    - objects/Account/compactLayouts/teamCompact.compactLayout
+    - objects/Account/fields/Active__c.field
+    - objects/Account/fields/CustomerPriority__c.field
+    - objects/Account/fields/NumberofLocations__c.field
+    - objects/Account/fields/PrimaryContactId__c.field
+    - objects/Account/fields/QtrlyCheck__c.field
+    - objects/Account/fields/SLA__c.field
+    - objects/Account/fields/SLAExpirationDate__c.field
+    - objects/Account/fields/SLASerialNumber__c.field
+    - objects/Account/fields/UpsellOpportunity__c.field
+    - objects/Case/fields/EngineeringReqNumber__c.field
+    - objects/Case/fields/PotentialLiability__c.field
+    - objects/Case/fields/Product__c.field
+    - objects/Case/fields/SLAViolation__c.field
+    - objects/Contact/fields/DoNotSMS__c.field
+    - objects/Contact/fields/Image__c.field
+    - objects/Contact/fields/Languages__c.field
+    - objects/Contact/fields/Level__c.field
+    - objects/Contact/fields/QtrlyCheck__c.field
+    - objects/Lead/fields/CurrentGenerators__c.field
+    - objects/Lead/fields/NumberofLocations__c.field
+    - objects/Lead/fields/Primary__c.field
+    - objects/Lead/fields/ProductInterest__c.field
+    - objects/Lead/fields/SICCode__c.field
+    - objects/Opportunity/fields/CurrentGenerators__c.field
+    - objects/Opportunity/fields/DeliveryInstallationStatus__c.field
+    - objects/Opportunity/fields/MainCompetitors__c.field
+    - objects/Opportunity/fields/OrderNumber__c.field
+    - objects/Opportunity/fields/TrackingNumber__c.field
+    - objects/Account/listViews/AllAccounts.listView
+    - objects/Account/listViews/MyAccounts.listView
+    - objects/Account/listViews/NewLastWeek.listView
+    - objects/Account/listViews/NewThisWeek.listView
+    - objects/Account/listViews/PlatinumandGoldSLACustomers.listView
+    - objects/Activity/listViews/AllActivities.listView
+    - objects/Activity/listViews/MyActivities.listView
+    - objects/Activity/listViews/TodaysTasks.listView
+    - objects/Activity/listViews/UpcomingEvents.listView
+    - objects/AlternativePaymentMethod/listViews/AlternativePaymentMethod.listView
+    - objects/AppointmentInvitation/listViews/All_AppointmentInvitations.listView
+    - objects/AppointmentInvitation/listViews/My_AppointmentInvitations.listView
+    - objects/Asset/listViews/AllAssets.listView
+    - objects/AssetAction/listViews/AssetAction.listView
+    - objects/AssetActionSource/listViews/AssetActionSource.listView
+    - objects/AssetStatePeriod/listViews/AssetStatePeriod.listView
+    - objects/AuthorizationForm/listViews/All_AuthorizationForms.listView
+    - objects/AuthorizationFormConsent/listViews/All_AuthorizationFormConsents.listView
+    - objects/AuthorizationFormDataUse/listViews/All_AuthorizationFormDataUses.listView
+    - objects/AuthorizationFormText/listViews/All_AuthorizationFormText.listView
+    - objects/BusinessBrand/listViews/All_BusinessBrands.listView
+    - objects/BuyerGroup/listViews/All_Buyer_Groups.listView
+    - objects/BuyerGroup/listViews/My_Buyer_Groups.listView
+    - objects/CalculationMatrix/listViews/All_CalculationMatrices.listView
+    - objects/CalculationProcedure/listViews/All_CalculationProcedures.listView
+    - objects/Campaign/listViews/AllActiveCampaigns.listView
+    - objects/Campaign/listViews/MyActiveCampaigns.listView
+    - objects/CardPaymentMethod/listViews/CardPaymentMethod.listView
+    - objects/Case/listViews/AllClosedCases.listView
+    - objects/Case/listViews/AllOpenCases.listView
+    - objects/Case/listViews/MyCases.listView
+    - objects/Case/listViews/MyOpenCases.listView
+    - objects/CollaborationGroup/listViews/All_ChatterGroups.listView
+    - objects/CommSubscription/listViews/All_CommSubscriptions.listView
+    - objects/CommSubscriptionChannelType/listViews/All_CommSubscriptionChannelTypes.listView
+    - objects/CommSubscriptionConsent/listViews/All_CommSubscriptionConsents.listView
+    - objects/CommSubscriptionTiming/listViews/All_CommSubscriptionTimings.listView
+    - objects/ConsumptionSchedule/listViews/All_ConsumptionSchedules.listView
+    - objects/ConsumptionSchedule/listViews/My_ConsumptionSchedules.listView
+    - objects/Contact/listViews/AllContacts.listView
+    - objects/Contact/listViews/BirthdaysThisMonth.listView
+    - objects/Contact/listViews/BulkMessageContacts.listView
+    - objects/Contact/listViews/MyContacts.listView
+    - objects/Contact/listViews/NewLastWeek.listView
+    - objects/Contact/listViews/NewThisWeek.listView
+    - objects/ContactPointAddress/listViews/All_ContactPointAddresses.listView
+    - objects/ContactPointConsent/listViews/All_ContactPointConsents.listView
+    - objects/ContactPointEmail/listViews/All_ContactPointEmails.listView
+    - objects/ContactPointPhone/listViews/All_ContactPointPhones.listView
+    - objects/ContactPointTypeConsent/listViews/All_ContactPointTypeConsents.listView
+    - objects/ContactRequest/listViews/My_ContactRequests.listView
+    - objects/Contract/listViews/AllActivatedContracts.listView
+    - objects/Contract/listViews/AllContracts.listView
+    - objects/Contract/listViews/AllDraftContracts.listView
+    - objects/Contract/listViews/AllInApprovalContracts.listView
+    - objects/Contract/listViews/MyActivatedContracts.listView
+    - objects/Contract/listViews/MyDraftContracts.listView
+    - objects/Contract/listViews/MyInApprovalContracts.listView
+    - objects/Coupon/listViews/ALL_Coupons.listView
+    - objects/CreditMemo/listViews/mine.listView
+    - objects/Customer/listViews/All_Customers.listView
+    - objects/DataUseLegalBasis/listViews/All_DataUseLegalBases.listView
+    - objects/DataUsePurpose/listViews/All_DataUsePurposes.listView
+    - objects/DigitalWallet/listViews/DigitalWallet.listView
+    - objects/DocumentEnvelope/listViews/All_DocumentEnvelopes.listView
+    - objects/DocumentTemplate/listViews/All_DocumentTemplates.listView
+    - objects/EngagementChannelType/listViews/All_EngagementChannelTypes.listView
+    - objects/EngagementChannelWorkType/listViews/All_EngagementChannelWorkTypes.listView
+    - objects/EngagementChannelWorkType/listViews/My_EngagementChannelWorkTypes.listView
+    - objects/Entitlement/listViews/All_Entitlements.listView
+    - objects/Event/listViews/AllActivities.listView
+    - objects/Event/listViews/MyActivities.listView
+    - objects/Event/listViews/TodaysTasks.listView
+    - objects/Event/listViews/UpcomingEvents.listView
+    - objects/ExpressionSet/listViews/All_ExpressionSets.listView
+    - objects/FinanceBalanceSnapshot/listViews/mine.listView
+    - objects/FinanceTransaction/listViews/mine.listView
+    - objects/FlowOrchestrationInstance/listViews/All_Orchestration_Instances.listView
+    - objects/FlowOrchestrationWorkItem/listViews/ALL_Open_Work_Items.listView
+    - objects/FlowOrchestrationWorkItem/listViews/All_Work_Items.listView
+    - objects/GeneratedDocument/listViews/All_GeneratedDocuments.listView
+    - objects/Idea/listViews/Ideas_Last_7_Days.listView
+    - objects/Incident/listViews/AllIncidentsDefault.listView
+    - objects/Individual/listViews/All_Individuals.listView
+    - objects/Invoice/listViews/mine.listView
+    - objects/Lead/listViews/AllOpenLeads.listView
+    - objects/Lead/listViews/MyUnreadLeads.listView
+    - objects/Lead/listViews/TodaysLeads.listView
+    - objects/Lead/listViews/ViewCustom1.listView
+    - objects/Lead/listViews/ViewCustom2.listView
+    - objects/LegalEntity/listViews/mine.listView
+    - objects/MessagingEndUser/listViews/BulkMessageMessagingEndUsers.listView
+    - objects/OperatingHours/listViews/All_OperatingHours.listView
+    - objects/Opportunity/listViews/AllOpportunities.listView
+    - objects/Opportunity/listViews/ClosingNextMonth.listView
+    - objects/Opportunity/listViews/ClosingThisMonth.listView
+    - objects/Opportunity/listViews/Default_Opportunity_Pipeline.listView
+    - objects/Opportunity/listViews/MyOpportunities.listView
+    - objects/Opportunity/listViews/NewLastWeek.listView
+    - objects/Opportunity/listViews/NewThisWeek.listView
+    - objects/Opportunity/listViews/Private.listView
+    - objects/Opportunity/listViews/Won.listView
+    - objects/Order/listViews/AllActivatedOrders.listView
+    - objects/Order/listViews/AllDraftOrders.listView
+    - objects/Order/listViews/AllOrders.listView
+    - objects/PartyConsent/listViews/All_PartyConsents.listView
+    - objects/Payment/listViews/Payment.listView
+    - objects/PaymentAuthAdjustment/listViews/PaymentAuthAdjustment.listView
+    - objects/PaymentAuthorization/listViews/PaymentAuthorization.listView
+    - objects/PaymentGateway/listViews/PaymentGateway.listView
+    - objects/PaymentGroup/listViews/PaymentGroup.listView
+    - objects/PaymentLineInvoice/listViews/PaymentLineInvoice.listView
+    - objects/ProcessException/listViews/all_process_exceptions.listView
+    - objects/Product2/listViews/AllProducts.listView
+    - objects/ProductCatalog/listViews/All_Product_Catalogs_List_View.listView
+    - objects/ProductCategory/listViews/All_Product_Categories_List_View.listView
+    - objects/ProductCategory/listViews/Org_ProductCategory_Hierarchy.listView
+    - objects/Quote/listViews/mine.listView
+    - objects/Recommendation/listViews/All_Recommendations.listView
+    - objects/Refund/listViews/Refund.listView
+    - objects/RefundLinePayment/listViews/RefundLinePayment.listView
+    - objects/ReturnOrder/listViews/All_ReturnOrders.listView
+    - objects/ReturnOrder/listViews/My_ReturnOrders.listView
+    - objects/Scorecard/listViews/AllScorecards.listView
+    - objects/Scorecard/listViews/MyScorecards.listView
+    - objects/Seller/listViews/All_Sellers.listView
+    - objects/ServiceAppointment/listViews/All_ServiceAppointments.listView
+    - objects/ServiceAppointment/listViews/MyPendingAppointments.listView
+    - objects/ServiceAppointment/listViews/MyScheduledAppointments.listView
+    - objects/ServiceContract/listViews/All_ServiceContracts.listView
+    - objects/ServiceResource/listViews/All_ServiceResources.listView
+    - objects/ServiceResource/listViews/My_ServiceResources.listView
+    - objects/ServiceTerritory/listViews/All_ServiceTerritories.listView
+    - objects/ServiceTerritory/listViews/My_ServiceTerritories.listView
+    - objects/Shift/listViews/All_Shifts.listView
+    - objects/Shift/listViews/My_Shifts.listView
+    - objects/ShiftEngagementChannel/listViews/All_ShiftEngagementChannels.listView
+    - objects/ShiftEngagementChannel/listViews/My_ShiftEngagementChannels.listView
+    - objects/ShiftWorkTopic/listViews/All_ShiftWorkTopics.listView
+    - objects/ShiftWorkTopic/listViews/My_ShiftWorkTopics.listView
+    - objects/SocialPersona/listViews/AllSocialPersonas.listView
+    - objects/Solution/listViews/AllReviewedSolutions.listView
+    - objects/Solution/listViews/AllUnreviewedSolutions.listView
+    - objects/Task/listViews/AllActivities.listView
+    - objects/Task/listViews/MyActivities.listView
+    - objects/Task/listViews/TodaysTasks.listView
+    - objects/Task/listViews/UpcomingEvents.listView
+    - objects/User/listViews/ActiveUsers.listView
+    - objects/User/listViews/AdminUsers.listView
+    - objects/User/listViews/AllUsers.listView
+    - objects/UserEsignVendorIdentifier/listViews/All_UserEsignVendorIdentifiers.listView
+    - objects/Waitlist/listViews/All_Waitlists.listView
+    - objects/Waitlist/listViews/My_Waitlists.listView
+    - objects/WebCart/listViews/All_WebCarts.listView
+    - objects/WebCart/listViews/Owned_WebCarts.listView
+    - objects/WorkOrder/listViews/All_WorkOrders.listView
+    - objects/WorkOrder/listViews/My_WorkOrders.listView
+    - objects/WorkType/listViews/All_WorkTypes.listView
+    - objects/WorkType/listViews/My_WorkTypes.listView
+    - objects/WorkTypeGroup/listViews/All_WorkTypeGroups.listView
+    - objects/WorkTypeGroup/listViews/My_WorkTypeGroups.listView
+    - objects/Account/recordTypes/X0To1Code.recordType
+    - objects/Account/recordTypes/X0To1Code_1.recordType
+    - objects/Account/recordTypes/X0To1Code_2.recordType
+    - objects/Case/recordTypes/OMS435.recordType
+    - objects/Idea/recordTypes/InternalIdeasIdeaRecordType.recordType
+    - objects/Account/webLinks/Billing.webLink
+    - objects/Campaign/webLinks/ViewCampaignInfluenceReport.webLink
+    - objects/Case/webLinks/UpsellCrosssellOpportunity.webLink
+    - objects/Opportunity/webLinks/DeliveryStatus.webLink
+    - objects/Quote/webLinks/Generate_Document.webLink
+    - objects/Case/businessProcesses/OMS435.businessProcess
+    - objects/User/fieldSets/PersonalInfo_EPIM.fieldSet
+    - permissionsetgroups/OmniStudio_Standard_Users_Group.permissionsetgroup
+    - permissionsetgroups/OmniStudioPostInstallStep2.permissionsetgroup
+    - permissionsets/Docgen_Designer_Standard_User.permissionset
+    - permissionsets/OmniStudio_Standard_User_Extras.permissionset
+    - permissionsets/OmniStudioPostInstallStep.permissionset
+    - profilePasswordPolicies/OmniStudio_Standard_User_Profile_profilePasswordPolicy1669849138612.profilePasswordPolicy
+    - profileSessionSettings/OmniStudio_Standard_User_Profile_profileSessionSetting1669849138819.profileSessionSetting
+    - profiles/Admin.profile
+    - profiles/Analytics Cloud Integration User.profile
+    - profiles/Analytics Cloud Security User.profile
+    - profiles/Authenticated Website.profile
+    - profiles/B2B Reordering Portal Buyer Profile.profile
+    - profiles/Chatter External User.profile
+    - profiles/Chatter Free User.profile
+    - profiles/Chatter Moderator User.profile
+    - profiles/ContractManager.profile
+    - profiles/Cross Org Data Proxy User.profile
+    - profiles/Custom%3A Marketing Profile.profile
+    - profiles/Custom%3A Sales Profile.profile
+    - profiles/Custom%3A Support Profile.profile
+    - profiles/Customer Community Login User.profile
+    - profiles/Customer Community Plus Login User.profile
+    - profiles/Customer Community Plus User.profile
+    - profiles/Customer Community User.profile
+    - profiles/Customer Portal Manager Custom.profile
+    - profiles/Customer Portal Manager Standard.profile
+    - profiles/External Apps Login User.profile
+    - profiles/External Identity User.profile
+    - profiles/Force%2Ecom - App Subscription User.profile
+    - profiles/Force%2Ecom - Free User.profile
+    - profiles/Gold Partner User.profile
+    - profiles/High Volume Customer Portal User.profile
+    - profiles/HighVolumePortal.profile
+    - profiles/Identity User.profile
+    - profiles/MarketingProfile.profile
+    - profiles/Minimum Access - Salesforce.profile
+    - profiles/OmniStudio Standard User.profile
+    - profiles/Partner App Subscription User.profile
+    - profiles/Partner Community Login User.profile
+    - profiles/Partner Community User.profile
+    - profiles/PlatformPortal.profile
+    - profiles/Read Only.profile
+    - profiles/Salesforce API Only System Integrations.profile
+    - profiles/Silver Partner User.profile
+    - profiles/SolutionManager.profile
+    - profiles/Standard.profile
+    - profiles/StandardAul.profile
+    - profiles/Work%2Ecom Only User.profile
+    - quickActions/Case.LogACall.quickAction
+    - quickActions/Case.NewChildCase.quickAction
+    - quickActions/CollaborationGroup.NewGroupMember.quickAction
+    - quickActions/CollaborationGroup.NewGroupRecord.quickAction
+    - quickActions/FeedItem.NewTaskFromFeedItem.quickAction
+    - quickActions/LogACall.quickAction
+    - quickActions/NewAccount.quickAction
+    - quickActions/NewCase.quickAction
+    - quickActions/NewContact.quickAction
+    - quickActions/NewEvent.quickAction
+    - quickActions/NewGroup.quickAction
+    - quickActions/NewLead.quickAction
+    - quickActions/NewNote.quickAction
+    - quickActions/NewOpportunity.quickAction
+    - quickActions/NewTask.quickAction
+    - quickActions/Quote.SendEmail.quickAction
+    - quickActions/SendEmail.quickAction
+    - quickActions/Task.Defer.quickAction
+    - quickActions/Task.Defer_0.quickAction
+    - quickActions/Task.Defer_1.quickAction
+    - quickActions/Task.Defer_2.quickAction
+    - quickActions/Task.EditDescription.quickAction
+    - quickActions/Task.EditDescription_0.quickAction
+    - quickActions/Task.EditDescription_1.quickAction
+    - quickActions/Task.EditDescription_2.quickAction
+    - quickActions/Task.UpdatePriority.quickAction
+    - quickActions/Task.UpdatePriority_0.quickAction
+    - quickActions/Task.UpdatePriority_1.quickAction
+    - quickActions/Task.UpdatePriority_2.quickAction
+    - quickActions/Task.UpdateStatus.quickAction
+    - quickActions/Task.UpdateStatus_0.quickAction
+    - quickActions/Task.UpdateStatus_1.quickAction
+    - quickActions/Task.UpdateStatus_2.quickAction
+    - remoteSiteSettings/ApexDevNet.remoteSite
+    - remoteSiteSettings/FlexCardLightningForceURL.remoteSite
+    - remoteSiteSettings/FlexCardVisualForceURL.remoteSite
+    - remoteSiteSettings/Omnistudio_Classic.remoteSite
+    - remoteSiteSettings/Omnistudio_Lightning.remoteSite
+    - reportTypes/screen_flows_prebuilt_crt.reportType
+    - reports/unfiled$public/flow_screen_prebuilt_report.report
+    - roles/CEO.role
+    - roles/CFO.role
+    - roles/ChannelSalesTeam.role
+    - roles/COO.role
+    - roles/CustomerSupportInternational.role
+    - roles/CustomerSupportNorthAmerica.role
+    - roles/DirectorChannelSales.role
+    - roles/DirectorDirectSales.role
+    - roles/EasternSalesTeam.role
+    - roles/InstallationRepairServices.role
+    - roles/MarketingTeam.role
+    - roles/SVPCustomerServiceSupport.role
+    - roles/SVPHumanResources.role
+    - roles/SVPSalesMarketing.role
+    - roles/VPInternationalSales.role
+    - roles/VPMarketing.role
+    - roles/VPNorthAmericanSales.role
+    - roles/WesternSalesTeam.role
+    - settings/Account.settings
+    - settings/AccountIntelligence.settings
+    - settings/Actions.settings
+    - settings/Activities.settings
+    - settings/Address.settings
+    - settings/Analytics.settings
+    - settings/Apex.settings
+    - settings/AppAnalytics.settings
+    - settings/AppExperience.settings
+    - settings/Archive.settings
+    - settings/Blockchain.settings
+    - settings/Bot.settings
+    - settings/BusinessHours.settings
+    - settings/Campaign.settings
+    - settings/Case.settings
+    - settings/Chatter.settings
+    - settings/ChatterEmailsMD.settings
+    - settings/Communities.settings
+    - settings/Company.settings
+    - settings/ConnectedApp.settings
+    - settings/Content.settings
+    - settings/Contract.settings
+    - settings/ConversationalIntelligence.settings
+    - settings/Currency.settings
+    - settings/CustomerDataPlatform.settings
+    - settings/DataDotCom.settings
+    - settings/Deployment.settings
+    - settings/DevHub.settings
+    - settings/Discovery.settings
+    - settings/DocumentChecklist.settings
+    - settings/EAC.settings
+    - settings/EmailAdministration.settings
+    - settings/EmailIntegration.settings
+    - settings/EmailTemplate.settings
+    - settings/EmployeeUser.settings
+    - settings/EncryptionKey.settings
+    - settings/EnhancedNotes.settings
+    - settings/Entitlement.settings
+    - settings/Essentials.settings
+    - settings/Event.settings
+    - settings/ExperienceBundle.settings
+    - settings/ExternalServices.settings
+    - settings/FieldService.settings
+    - settings/FilesConnect.settings
+    - settings/FileUploadAndDownloadSecurity.settings
+    - settings/Flow.settings
+    - settings/Forecasting.settings
+    - settings/Formula.settings
+    - settings/GoogleApps.settings
+    - settings/HighVelocitySales.settings
+    - settings/Ideas.settings
+    - settings/Industries.settings
+    - settings/InvocableAction.settings
+    - settings/IsvHammer.settings
+    - settings/Knowledge.settings
+    - settings/Language.settings
+    - settings/LeadConfig.settings
+    - settings/LightningExperience.settings
+    - settings/LiveAgent.settings
+    - settings/LiveMessage.settings
+    - settings/Macro.settings
+    - settings/Mobile.settings
+    - settings/MyDomain.settings
+    - settings/Name.settings
+    - settings/Notifications.settings
+    - settings/ObjectLinking.settings
+    - settings/OmniChannel.settings
+    - settings/Opportunity.settings
+    - settings/Order.settings
+    - settings/OrderManagement.settings
+    - settings/Org.settings
+    - settings/Pardot.settings
+    - settings/PardotEinstein.settings
+    - settings/PartyDataModel.settings
+    - settings/PathAssistant.settings
+    - settings/Picklist.settings
+    - settings/PlatformEncryption.settings
+    - settings/Portals.settings
+    - settings/PredictionBuilder.settings
+    - settings/Privacy.settings
+    - settings/Product.settings
+    - settings/QuickText.settings
+    - settings/Quote.settings
+    - settings/RecommendationBuilder.settings
+    - settings/RecordPage.settings
+    - settings/RetailExecution.settings
+    - settings/Schema.settings
+    - settings/Search.settings
+    - settings/Security.settings
+    - settings/ServiceCloudVoice.settings
+    - settings/ServiceSetupAssistant.settings
+    - settings/Sharing.settings
+    - settings/Site.settings
+    - settings/SocialProfile.settings
+    - settings/SourceTracking.settings
+    - settings/Survey.settings
+    - settings/SystemNotification.settings
+    - settings/Territory2.settings
+    - settings/Trailhead.settings
+    - settings/TrialOrg.settings
+    - settings/UserEngagement.settings
+    - settings/UserInterface.settings
+    - settings/UserManagement.settings
+    - settings/Voice.settings
+    - settings/WebToX.settings
+    - settings/WorkDotCom.settings
+    - sharingRules/Account.sharingRules
+    - sharingRules/Asset.sharingRules
+    - sharingRules/Campaign.sharingRules
+    - sharingRules/Case.sharingRules
+    - sharingRules/Contact.sharingRules
+    - sharingRules/Individual.sharingRules
+    - sharingRules/Lead.sharingRules
+    - sharingRules/Opportunity.sharingRules
+    - sharingRules/Order.sharingRules
+    - sharingRules/Product2.sharingRules
+    - sharingRules/User.sharingRules
+    - standardValueSets/AccountContactMultiRoles.standardValueSet
+    - standardValueSets/AccountContactRole.standardValueSet
+    - standardValueSets/AccountOwnership.standardValueSet
+    - standardValueSets/AccountRating.standardValueSet
+    - standardValueSets/AccountType.standardValueSet
+    - standardValueSets/AssetStatus.standardValueSet
+    - standardValueSets/CampaignMemberStatus.standardValueSet
+    - standardValueSets/CampaignStatus.standardValueSet
+    - standardValueSets/CampaignType.standardValueSet
+    - standardValueSets/CaseContactRole.standardValueSet
+    - standardValueSets/CaseOrigin.standardValueSet
+    - standardValueSets/CasePriority.standardValueSet
+    - standardValueSets/CaseReason.standardValueSet
+    - standardValueSets/CaseStatus.standardValueSet
+    - standardValueSets/CaseType.standardValueSet
+    - standardValueSets/ContactRole.standardValueSet
+    - standardValueSets/ContractContactRole.standardValueSet
+    - standardValueSets/ContractStatus.standardValueSet
+    - standardValueSets/EntitlementType.standardValueSet
+    - standardValueSets/EventSubject.standardValueSet
+    - standardValueSets/EventType.standardValueSet
+    - standardValueSets/FiscalYearPeriodName.standardValueSet
+    - standardValueSets/FiscalYearPeriodPrefix.standardValueSet
+    - standardValueSets/FiscalYearQuarterName.standardValueSet
+    - standardValueSets/FiscalYearQuarterPrefix.standardValueSet
+    - standardValueSets/IdeaMultiCategory.standardValueSet
+    - standardValueSets/IdeaStatus.standardValueSet
+    - standardValueSets/IdeaThemeStatus.standardValueSet
+    - standardValueSets/Industry.standardValueSet
+    - standardValueSets/LeadSource.standardValueSet
+    - standardValueSets/LeadStatus.standardValueSet
+    - standardValueSets/OpportunityCompetitor.standardValueSet
+    - standardValueSets/OpportunityStage.standardValueSet
+    - standardValueSets/OpportunityType.standardValueSet
+    - standardValueSets/OrderStatus.standardValueSet
+    - standardValueSets/OrderType.standardValueSet
+    - standardValueSets/PartnerRole.standardValueSet
+    - standardValueSets/Product2Family.standardValueSet
+    - standardValueSets/QuickTextCategory.standardValueSet
+    - standardValueSets/QuickTextChannel.standardValueSet
+    - standardValueSets/QuoteStatus.standardValueSet
+    - standardValueSets/RoleInTerritory2.standardValueSet
+    - standardValueSets/SalesTeamRole.standardValueSet
+    - standardValueSets/Salutation.standardValueSet
+    - standardValueSets/ServiceContractApprovalStatus.standardValueSet
+    - standardValueSets/SocialPostClassification.standardValueSet
+    - standardValueSets/SocialPostEngagementLevel.standardValueSet
+    - standardValueSets/SocialPostReviewedStatus.standardValueSet
+    - standardValueSets/SolutionStatus.standardValueSet
+    - standardValueSets/TaskPriority.standardValueSet
+    - standardValueSets/TaskStatus.standardValueSet
+    - standardValueSets/TaskSubject.standardValueSet
+    - standardValueSets/TaskType.standardValueSet
+    - staticresources/cs_vlocity_webfonts_main.resource
+    - staticresources/Weatherbanneractive.resource
+    - staticresources/weatherbanneralert.resource
+    - tabs/Training_Template_Version.tab
+    - topicsForObjects/%vlocity_namespace%__DRBatchQueue__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__DRBulkData__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__Interface_DRGeneric__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__TestResult__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityDataPack__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityDocuSignTemplate__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityErrorLogEntry__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityScheduledJob__c.topicsForObjects
+    - topicsForObjects/%vlocity_namespace%__VlocityTrackingEntry__c.topicsForObjects
+    - topicsForObjects/Account.topicsForObjects
+    - topicsForObjects/Asset.topicsForObjects
+    - topicsForObjects/Campaign.topicsForObjects
+    - topicsForObjects/Case.topicsForObjects
+    - topicsForObjects/ChangeRequest.topicsForObjects
+    - topicsForObjects/Contact.topicsForObjects
+    - topicsForObjects/ContentDocument.topicsForObjects
+    - topicsForObjects/Contract.topicsForObjects
+    - topicsForObjects/DocumentClause.topicsForObjects
+    - topicsForObjects/DocumentRecipient.topicsForObjects
+    - topicsForObjects/Event.topicsForObjects
+    - topicsForObjects/Incident.topicsForObjects
+    - topicsForObjects/Lead.topicsForObjects
+    - topicsForObjects/Opportunity.topicsForObjects
+    - topicsForObjects/Order.topicsForObjects
+    - topicsForObjects/Problem.topicsForObjects
+    - topicsForObjects/ResourceAbsence.topicsForObjects
+    - topicsForObjects/ResourcePreference.topicsForObjects
+    - topicsForObjects/ReturnOrder.topicsForObjects
+    - topicsForObjects/ReturnOrderLineItem.topicsForObjects
+    - topicsForObjects/ServiceAppointment.topicsForObjects
+    - topicsForObjects/ServiceResource.topicsForObjects
+    - topicsForObjects/ServiceResourceSkill.topicsForObjects
+    - topicsForObjects/ServiceTerritory.topicsForObjects
+    - topicsForObjects/ServiceTerritoryMember.topicsForObjects
+    - topicsForObjects/Shift.topicsForObjects
+    - topicsForObjects/Solution.topicsForObjects
+    - topicsForObjects/Task.topicsForObjects
+    - topicsForObjects/WorkOrder.topicsForObjects
+    - topicsForObjects/WorkOrderLineItem.topicsForObjects
+    - topicsForObjects/WorkPlan.topicsForObjects
+    - topicsForObjects/WorkPlanTemplate.topicsForObjects
+    - topicsForObjects/WorkPlanTemplateEntry.topicsForObjects
+    - topicsForObjects/WorkStep.topicsForObjects
+    - topicsForObjects/WorkStepTemplate.topicsForObjects
+    - workflows/Case.workflow
+VlocityTypesToFetch:
+    - AttributeAssignmentRule
+    - AttributeCategory
+    - CalculationMatrix
+    - CalculationMatrixVersion
+    - CalculationProcedure
+    - CalculationProcedureVersion
+    - Catalog
+    - ContextAction
+    - ContextDimension
+    - ContextScope
+    - ContractType
+    - CpqConfigurationSetup
+    - CustomFieldMap
+    - DataRaptor
+    - Document
+    - DocumentClause
+    - DocumentTemplate
+    - EntityFilter
+    - GeneralSettings
+    - IntegrationProcedure
+    - IntegrationRetryPolicy
+    - InterfaceImplementation
+    - ItemImplementation
+    - ManualQueue
+    - ObjectClass
+    - ObjectContextRule
+    - ObjectLayout
+    - OfferingProcedure
+    - OfferMigrationPlan
+    - OmniScript
+    - OrchestrationDependencyDefinition
+    - OrchestrationItemDefinition
+    - OrchestrationPlanDefinition
+    - OrchestrationQueueAssignmentRule
+    - Pricebook2
+    - PriceList
+    - PricingPlan
+    - PricingVariable
+    - Product2
+    - Promotion
+    - RelationshipGraph
+    - Rule
+    - SpecTemplateMapping
+    - StoryObjectConfiguration
+    - String
+    - System
+    - ThorOrchestrationQueue
+    - TimePlan
+    - TimePolicy
+    - UIFacet
+    - UISection
+    - VlocityAction
+    - VlocityAttachment
+    - VlocityCard
+    - VlocityDataStore
+    - VlocityFunction
+    - VlocityPicklist
+    - VlocityScheduledJob
+    - VlocitySearchWidgetSetup
+    - VlocityStateModel
+    - VlocityUILayout
+    - VlocityUITemplate
+    - VqMachine
+    - VqResource
+SalesforceTypesToFetch:
+    - AccessControlPolicy
+    - ActionLinkGroupTemplate
+    - AIAssistantTemplate
+    - AnalyticSnapshot
+    - ApexClass
+    - ApexComponent
+    - ApexPage
+    - ApexTestSuite
+    - ApexTrigger
+    - AppMenu
+    - ApprovalProcess
+    - AssignmentRules
+    - AuraDefinitionBundle
+    - AuthProvider
+    - AutoResponseRules
+    - BrandingSet
+    - BusinessProcess
+    - CallCenter
+    - CampaignInfluenceModel
+    - CaseSubjectParticle
+    - Certificate
+    - ChannelLayout
+    - ChatterExtension
+    - CleanDataService
+    - CMSConnectSource
+    - Community
+    - CommunityTemplateDefinition
+    - CommunityThemeDefinition
+    - CompactLayout
+    - ConnectedApp
+    - ContentAsset
+    - CorsWhitelistOrigin
+    - CspTrustedSite
+    - CustomApplication
+    - CustomApplicationComponent
+    - CustomFeedFilter
+    - CustomField
+    - CustomHelpMenuSection
+    - CustomLabels
+    - CustomMetadata
+    - CustomNotificationType
+    - CustomObject
+    - CustomPageWebLink
+    - CustomPermission
+    - CustomSite
+    - CustomTab
+    - Dashboard
+    - DataCategoryGroup
+    - DelegateGroup
+    - Document
+    - DuplicateRule
+    - EclairGeoData
+    - EmailServicesFunction
+    - EmailTemplate
+    - EmbeddedServiceBranding
+    - EmbeddedServiceConfig
+    - EmbeddedServiceFieldService
+    - EmbeddedServiceFlowConfig
+    - EmbeddedServiceLiveAgent
+    - EntitlementProcess
+    - EntitlementTemplate
+    - EntityImplements
+    - EscalationRules
+    - EventDelivery
+    - EventSubscription
+    - ExternalDataSource
+    - ExternalServiceRegistration
+    - FeatureParameterBoolean
+    - FeatureParameterDate
+    - FeatureParameterInteger
+    - FieldSet
+    - FlexiPage
+    - Flow
+    - FlowCategory
+    - Form
+    - FormSection
+    - GlobalPicklistValue
+    - GlobalValueSet
+    - GlobalValueSetTranslation
+    - Group
+    - HomePageComponent
+    - HomePageLayout
+    - Index
+    - IntegrationHubSettingsType
+    - KeywordList
+    - Layout
+    - Letterhead
+    - LicenseDefinition
+    - LightningBolt
+    - LightningComponentBundle
+    - LightningExperienceTheme
+    - ListView
+    - LiveChatAgentConfig
+    - LiveChatButton
+    - LiveChatDeployment
+    - LiveChatSensitiveDataRule
+    - ManagedTopics
+    - MatchingRules
+    - MilestoneType
+    - ModerationRule
+    - NamedCredential
+    - Network
+    - NetworkBranding
+    - Orchestration
+    - OrchestrationContext
+    - PathAssistant
+    - PermissionSet
+    - PermissionSetGroup
+    - PicklistValue
+    - PlatformCachePartition
+    - PlatformEventChannel
+    - Portal
+    - PostTemplate
+    - PresenceDeclineReason
+    - PresenceUserConfig
+    - Profile
+    - ProfilePasswordPolicy
+    - ProfileSessionSetting
+    - Queue
+    - QueueRoutingConfig
+    - QuickAction
+    - RecommendationStrategy
+    - RecordActionDeployment
+    - RecordType
+    - RemoteSiteSetting
+    - Report
+    - ReportType
+    - Role
+    - SamlSsoConfig
+    - ServiceChannel
+    - ServicePresenceStatus
+    - Settings
+    - SharingCriteriaRule
+    - SharingOwnerRule
+    - SharingReason
+    - SharingSet
+    - SharingTerritoryRule
+    - SiteDotCom
+    - Skill
+    - StandardValue
+    - StandardValueSet
+    - StandardValueSetTranslation
+    - StaticResource
+    - SynonymDictionary
+    - Territory
+    - Territory2
+    - Territory2Model
+    - Territory2Rule
+    - Territory2Type
+    - TimeSheetTemplate
+    - TopicsForObjects
+    - TransactionSecurityPolicy
+    - Translations
+    - UiPlugin
+    - UserCriteria
+    - ValidationRule
+    - WaveApplication
+    - WaveDashboard
+    - WaveDataflow
+    - WaveDataset
+    - WaveLens
+    - WaveRecipe
+    - WaveTemplateBundle
+    - WaveXmd
+    - WebLink
+    - Workflow
+    - WorkflowAlert
+    - WorkflowFieldUpdate
+    - WorkflowFlowAction
+    - WorkflowKnowledgePublish
+    - WorkflowOutboundMessage
+    - WorkflowRule
+    - WorkflowSend
+    - WorkflowTask
