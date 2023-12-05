@@ -1,1 +1,3 @@
 expansionPath: vlocity
+separateMatrixVersions: true
+separateCalculationProcedureVersions: true
