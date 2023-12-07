@@ -1,0 +1,11 @@
+Name: OmniStudio_0To1Code
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - classes/MyGlobalClassInterface_Omnistudio.cls
+    - classes/MyPicklistOptions.cls
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - ObjectClass
+SalesforceTypesToFetch:
+    - ApexClass
