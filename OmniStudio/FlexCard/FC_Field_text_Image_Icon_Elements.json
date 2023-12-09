@@ -1,0 +1,76 @@
+{
+    "useVlocityTriggers": true,
+    "status": "Complete",
+    "processMultiple": true,
+    "primaryDataPackType": "FlexCard",
+    "primaryDataPackKey": "1747d11cacae39bea01d5d12a21017d2",
+    "maxDepth": -1,
+    "isChunked": false,
+    "ignoreAllErrors": false,
+    "forceQueueable": false,
+    "forceOldDataModel": null,
+    "dataPacks": [
+        {
+            "VlocityPrimarySourceId": "0koHp0000000WH7IAM",
+            "VlocityPreviousPageKey": null,
+            "VlocityMultiPackParentKey": null,
+            "VlocityDepthFromPrimary": 0,
+            "VlocityDataPackType": "FlexCard",
+            "VlocityDataPackStatus": "Success",
+            "VlocityDataPackRelationshipType": "Primary",
+            "VlocityDataPackRecords": [],
+            "VlocityDataPackParents": [],
+            "VlocityDataPackName": "FC_Field_text_Image_Icon_Elements",
+            "VlocityDataPackMessage": null,
+            "VlocityDataPackLabel": "FlexCard",
+            "VlocityDataPackKey": "1747d11cacae39bea01d5d12a21017d2",
+            "VlocityDataPackIsNotSupported": false,
+            "VlocityDataPackIsIncluded": true,
+            "VlocityDataPackData": {
+                "Id": "0koHp0000000WH7IAM",
+                "VlocityDataPackRelationshipType": "Primary",
+                "VlocityDataPackLabel": "FlexCard",
+                "OmniUiCard": [
+                    {
+                        "Description": "",
+                        "AuthorName": "Oto1_LBS",
+                        "OmniUiCardKey": "FC_Field_text_Image_Icon_Elements/Oto1_LBS/1.0",
+                        "OverrideKey": "",
+                        "IsActive": false,
+                        "DataSourceConfig": "{\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"DR_MoneyHeistTeam_Contacts\",\"bundleType\":\"\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[]}}",
+                        "VlocityDataPackType": "SObject",
+                        "SampleDataSourceResponse": "[{\"Name\":\"contact name 1\",\"Id\":\"003Hp00002rB6zMIAS\",\"Img\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D\"},{\"Name\":\"contact name 2\",\"Id\":\"003Hp00002rB6zNIAS\",\"Img\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D\"}]",
+                        "ClonedFromOmniUiCardKey": "",
+                        "VersionNumber": 1,
+                        "Namespace": "",
+                        "Name": "FC_Field_text_Image_Icon_Elements",
+                        "IsTrackingEnabled": false,
+                        "VlocityRecordSObjectType": "OmniUiCard",
+                        "VlocityRecordSourceKey": "VlocityRecordSourceKey:0koHp0000000WH7IAM",
+                        "PropertySetConfig": "{\"states\":[{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Icon\",\"element\":\"flexIcon\",\"size\":{\"isResponsive\":false,\"default\":\"1\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"card\":\"{card}\",\"iconType\":\"Salesforce SVG\",\"iconName\":\"utility:user\",\"size\":\"medium\",\"extraclass\":\"slds-icon_container slds-icon__svg--default \",\"variant\":\"error\",\"imgsrc\":\"\"},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_1-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"1\"}},\"elementLabel\":\"Icon-3\"},{\"name\":\"Name\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"3\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"Name\",\"label\":\"Name\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_3-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"3\"}},\"elementLabel\":\"Name-0\"},{\"name\":\"Text\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"2\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"mergeField\":\"%3Cdiv%20class=%22slds-text-title_caps%22%3Emy%20name%20is:%3Cstrong%3E%20%7BName%7D%3C/strong%3E%3C/div%3E\",\"card\":\"{card}\"},\"type\":\"text\",\"styleObject\":{\"sizeClass\":\"slds-size_2-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"2\"}},\"elementLabel\":\"Text-1\"},{\"name\":\"Image\",\"element\":\"flexImg\",\"size\":{\"isResponsive\":false,\"default\":\"4\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"record\":\"{record}\",\"card\":\"{card}\",\"size\":\"small\",\"extraclass\":\"slds-align_absolute-center\",\"stateImg\":{\"imgsrc\":\"{Img}\",\"alternativeText\":\"Image description\"}},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_4-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"4\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"height\":\"\",\"class\":\"\",\"style\":\"      \\n         \"},\"elementLabel\":\"Image-2\",\"styleObjects\":[{\"key\":0,\"conditions\":\"default\",\"styleObject\":{\"sizeClass\":\"slds-size_4-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"4\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"height\":\"\",\"class\":\"\",\"style\":\"      \\n         \"},\"label\":\"Default\",\"name\":\"Default\",\"conditionString\":\"\",\"draggable\":false}]}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]}],\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"DR_MoneyHeistTeam_Contacts\",\"bundleType\":\"\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[]},\"title\":\"FC_Field_text_Image_Icon_Elements\",\"enableLwc\":true,\"isFlex\":true,\"theme\":\"slds\",\"selectableMode\":\"Multi\",\"lwc\":{\"DeveloperName\":\"cfFC_Field_text_Image_Icon_Elements_1_Oto1_LBS\",\"Id\":\"0RbHp000001KmYFKA0\",\"MasterLabel\":\"cfFC_Field_text_Image_Icon_Elements_1_Oto1_LBS\",\"NamespacePrefix\":\"c\",\"ManageableState\":\"unmanaged\"},\"xmlObject\":{\"targetConfigs\":\"PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==\",\"targets\":{\"target\":[\"lightning__RecordPage\",\"lightning__AppPage\",\"lightning__HomePage\"]}},\"xmlJson\":[{\"@attributes\":{\"targets\":\"lightning__AppPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}},{\"@attributes\":{\"name\":\"recordId\",\"type\":\"String\"}}]},{\"@attributes\":{\"targets\":\"lightning__RecordPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}}]}]}",
+                        "OmniUiCardType": "Parent",
+                        "Id": "0koHp0000000WH7IAM",
+                        "VlocityDataPackIsIncluded": true,
+                        "StylingConfiguration": "",
+                        "UniqueName": "FC_Field_text_Image_Icon_Elements_Oto1_LBS_1"
+                    }
+                ],
+                "VlocityDataPackType": "FlexCard",
+                "VlocityDataPackKey": "1747d11cacae39bea01d5d12a21017d2"
+            },
+            "VlocityDataPackAllRelationships": {
+                "101ebd44fbec0db27b87fa70872a05ad": "Reference by Name"
+            },
+            "DataPackAttachmentSize": 7610,
+            "DataPackAttachmentParentId": "0ncHp0000004xRTIAY",
+            "DataPackAttachmentId": "00PHp00001ggnMcMAI",
+            "ActivationStatus": "Ready"
+        }
+    ],
+    "dataPackId": "0ncHp0000004xRTIAY",
+    "alreadyExportedKeys": [],
+    "name": "FC_Field_text_Image_Icon_Elements",
+    "description": "",
+    "version": 1,
+    "Status": "Complete"
+}

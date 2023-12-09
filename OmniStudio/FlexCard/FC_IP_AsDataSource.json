@@ -1,0 +1,76 @@
+{
+    "useVlocityTriggers": true,
+    "status": "Complete",
+    "processMultiple": true,
+    "primaryDataPackType": "FlexCard",
+    "primaryDataPackKey": "9937bf86737266d41237561a21526366",
+    "maxDepth": -1,
+    "isChunked": false,
+    "ignoreAllErrors": false,
+    "forceQueueable": false,
+    "forceOldDataModel": null,
+    "dataPacks": [
+        {
+            "VlocityPrimarySourceId": "0koHp0000000VzxIAE",
+            "VlocityPreviousPageKey": null,
+            "VlocityMultiPackParentKey": null,
+            "VlocityDepthFromPrimary": 0,
+            "VlocityDataPackType": "FlexCard",
+            "VlocityDataPackStatus": "Success",
+            "VlocityDataPackRelationshipType": "Primary",
+            "VlocityDataPackRecords": [],
+            "VlocityDataPackParents": [],
+            "VlocityDataPackName": "FC_IP_AsDataSource",
+            "VlocityDataPackMessage": null,
+            "VlocityDataPackLabel": "FlexCard",
+            "VlocityDataPackKey": "9937bf86737266d41237561a21526366",
+            "VlocityDataPackIsNotSupported": false,
+            "VlocityDataPackIsIncluded": true,
+            "VlocityDataPackData": {
+                "Id": "0koHp0000000VzxIAE",
+                "VlocityDataPackRelationshipType": "Primary",
+                "VlocityDataPackLabel": "FlexCard",
+                "OmniUiCard": [
+                    {
+                        "Description": "",
+                        "AuthorName": "Oto1Code_LBS",
+                        "OmniUiCardKey": "FC_IP_AsDataSource/Oto1Code_LBS/1.0",
+                        "OverrideKey": "",
+                        "IsActive": false,
+                        "DataSourceConfig": "{\"dataSource\":{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":\"\",\"resultVar\":\"[\\\"accounts\\\"]\",\"ipMethod\":\"FC_IP_AsDataSource_FC_IP_AsDataSource\",\"vlocityAsync\":false,\"inputMap\":{\"IP_acc_name\":\"{account_name}\"},\"jsonMap\":\"{\\\"account_name\\\":\\\"{account_name}\\\"}\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"account_name\",\"val\":\"account\",\"id\":13}]}}",
+                        "VlocityDataPackType": "SObject",
+                        "SampleDataSourceResponse": "{\"accounts\":[{\"Name\":\"Account Name 1\",\"Id\":\"001Hp00002hUHOeIAO\"},{\"Name\":\"Account Name 1\",\"Id\":\"001Hp00002hUHgGIAW\"},{\"Name\":\"Account Name 2\",\"Id\":\"001Hp00002hUHgHIAW\"},{\"Name\":\"Account Name 1\",\"Id\":\"001Hp00002hUHO5IAO\"},{\"Name\":\"Lookup Account\",\"Id\":\"001Hp00002hUHj0IAG\",\"Website\":\"leonardobds.sfdc@gmail.com\"},{\"Name\":\"Sample Account for Entitlements\",\"Id\":\"001Hp00002ghlAWIAY\"}]}",
+                        "ClonedFromOmniUiCardKey": "",
+                        "VersionNumber": 1,
+                        "Namespace": "",
+                        "Name": "FC_IP_AsDataSource",
+                        "IsTrackingEnabled": false,
+                        "VlocityRecordSObjectType": "OmniUiCard",
+                        "VlocityRecordSourceKey": "VlocityRecordSourceKey:0koHp0000000VzxIAE",
+                        "PropertySetConfig": "{\"states\":[{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Id\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"2\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"Id\",\"label\":\"Id\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_2-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"2\"}},\"elementLabel\":\"Id-0\"},{\"name\":\"Name\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"5\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"Name\",\"label\":\"Name\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_5-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"5\"}},\"elementLabel\":\"Name-1\"},{\"name\":\"Website\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"5\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"Website\",\"label\":\"Website\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_5-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"5\"}},\"elementLabel\":\"Website-2\"}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]}],\"dataSource\":{\"type\":\"IntegrationProcedures\",\"value\":{\"dsDelay\":\"\",\"resultVar\":\"[\\\"accounts\\\"]\",\"ipMethod\":\"FC_IP_AsDataSource_FC_IP_AsDataSource\",\"vlocityAsync\":false,\"inputMap\":{\"IP_acc_name\":\"{account_name}\"},\"jsonMap\":\"{\\\"account_name\\\":\\\"{account_name}\\\"}\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"account_name\",\"val\":\"account\",\"id\":13}]},\"title\":\"FC_IP_AsDataSource\",\"enableLwc\":true,\"isFlex\":true,\"theme\":\"slds\",\"selectableMode\":\"Multi\",\"xmlObject\":{\"targetConfigs\":\"PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==\",\"targets\":{\"target\":[\"lightning__RecordPage\",\"lightning__AppPage\",\"lightning__HomePage\"]}},\"xmlJson\":[{\"@attributes\":{\"targets\":\"lightning__AppPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}},{\"@attributes\":{\"name\":\"recordId\",\"type\":\"String\"}}]},{\"@attributes\":{\"targets\":\"lightning__RecordPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}}]}],\"lwc\":{\"DeveloperName\":\"cfFC_IP_AsDataSource_1_Oto1Code_LBS\",\"Id\":\"0RbHp000001KjYFKA0\",\"MasterLabel\":\"cfFC_IP_AsDataSource_1_Oto1Code_LBS\",\"NamespacePrefix\":\"c\",\"ManageableState\":\"unmanaged\"}}",
+                        "OmniUiCardType": "Parent",
+                        "Id": "0koHp0000000VzxIAE",
+                        "VlocityDataPackIsIncluded": true,
+                        "StylingConfiguration": "",
+                        "UniqueName": "FC_IP_AsDataSource_Oto1Code_LBS_1"
+                    }
+                ],
+                "VlocityDataPackType": "FlexCard",
+                "VlocityDataPackKey": "9937bf86737266d41237561a21526366"
+            },
+            "VlocityDataPackAllRelationships": {
+                "2d49e645c908e16ef7a1f0bbb6f962e3": "Reference by Name"
+            },
+            "DataPackAttachmentSize": 6227,
+            "DataPackAttachmentParentId": "0ncHp0000004xROIAY",
+            "DataPackAttachmentId": "00PHp00001ggnMqMAI",
+            "ActivationStatus": "Ready"
+        }
+    ],
+    "dataPackId": "0ncHp0000004xROIAY",
+    "alreadyExportedKeys": [],
+    "name": "FC_IP_AsDataSource",
+    "description": "",
+    "version": 1,
+    "Status": "Error"
+}

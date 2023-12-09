@@ -1,0 +1,78 @@
+{
+    "useVlocityTriggers": true,
+    "status": "Complete",
+    "processMultiple": true,
+    "primaryDataPackType": "FlexCard",
+    "primaryDataPackKey": "bd2e2089dd06be420c6ca2b2793d012b",
+    "maxDepth": -1,
+    "isChunked": false,
+    "ignoreAllErrors": false,
+    "forceQueueable": false,
+    "forceOldDataModel": null,
+    "dataPacks": [
+        {
+            "VlocityPrimarySourceId": "0koHp0000000WLeIAM",
+            "VlocityPreviousPageKey": null,
+            "VlocityMultiPackParentKey": null,
+            "VlocityDepthFromPrimary": 0,
+            "VlocityDataPackType": "FlexCard",
+            "VlocityDataPackStatus": "Success",
+            "VlocityDataPackRelationshipType": "Primary",
+            "VlocityDataPackRecords": [],
+            "VlocityDataPackParents": [
+                "40e4c7ff101ee680c34f201db993e7ed"
+            ],
+            "VlocityDataPackName": "FC_Parent_Accounts",
+            "VlocityDataPackMessage": null,
+            "VlocityDataPackLabel": "FlexCard",
+            "VlocityDataPackKey": "bd2e2089dd06be420c6ca2b2793d012b",
+            "VlocityDataPackIsNotSupported": false,
+            "VlocityDataPackIsIncluded": true,
+            "VlocityDataPackData": {
+                "Id": "0koHp0000000WLeIAM",
+                "VlocityDataPackRelationshipType": "Primary",
+                "VlocityDataPackLabel": "FlexCard",
+                "OmniUiCard": [
+                    {
+                        "Description": "",
+                        "AuthorName": "LBS",
+                        "OmniUiCardKey": "FC_Parent_Accounts/LBS/1.0",
+                        "OverrideKey": "",
+                        "IsActive": false,
+                        "DataSourceConfig": "{\"dataSource\":{\"type\":\"Query\",\"value\":{\"dsDelay\":\"\",\"query\":\"SELECT Id, Name FROM Account\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[]}}",
+                        "VlocityDataPackType": "SObject",
+                        "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHOeIAO\"},\"Id\":\"001Hp00002hUHOeIAO\",\"Name\":\"Account Name 1\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHgGIAW\"},\"Id\":\"001Hp00002hUHgGIAW\",\"Name\":\"Account Name 1\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHgHIAW\"},\"Id\":\"001Hp00002hUHgHIAW\",\"Name\":\"Account Name 2\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHO5IAO\"},\"Id\":\"001Hp00002hUHO5IAO\",\"Name\":\"Account Name 1\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHj0IAG\"},\"Id\":\"001Hp00002hUHj0IAG\",\"Name\":\"Lookup Account\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlARIAY\"},\"Id\":\"001Hp00002ghlARIAY\",\"Name\":\"United Oil & Gas, UK\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlASIAY\"},\"Id\":\"001Hp00002ghlASIAY\",\"Name\":\"United Oil & Gas, Singapore\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlATIAY\"},\"Id\":\"001Hp00002ghlATIAY\",\"Name\":\"GenePoint\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAUIAY\"},\"Id\":\"001Hp00002ghlAUIAY\",\"Name\":\"sForce\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAVIAY\"},\"Id\":\"001Hp00002ghlAVIAY\",\"Name\":\"Acme\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAWIAY\"},\"Id\":\"001Hp00002ghlAWIAY\",\"Name\":\"Sample Account for Entitlements\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAJIAY\"},\"Id\":\"001Hp00002ghlAJIAY\",\"Name\":\"Edge Communications\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAKIAY\"},\"Id\":\"001Hp00002ghlAKIAY\",\"Name\":\"Burlington Textiles Corp of America\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlALIAY\"},\"Id\":\"001Hp00002ghlALIAY\",\"Name\":\"Pyramid Construction Inc.\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAMIAY\"},\"Id\":\"001Hp00002ghlAMIAY\",\"Name\":\"Dickenson plc\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlANIAY\"},\"Id\":\"001Hp00002ghlANIAY\",\"Name\":\"Grand Hotels & Resorts Ltd\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAOIAY\"},\"Id\":\"001Hp00002ghlAOIAY\",\"Name\":\"United Oil & Gas Corp.\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAPIAY\"},\"Id\":\"001Hp00002ghlAPIAY\",\"Name\":\"Express Logistics and Transport\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002ghlAQIAY\"},\"Id\":\"001Hp00002ghlAQIAY\",\"Name\":\"University of Arizona\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Hp00002hUHRgIAO\"},\"Id\":\"001Hp00002hUHRgIAO\",\"Name\":\"Salesforce.com\"}]",
+                        "ClonedFromOmniUiCardKey": "",
+                        "VersionNumber": 1,
+                        "Namespace": "",
+                        "Name": "FC_Parent_Accounts",
+                        "IsTrackingEnabled": false,
+                        "VlocityRecordSObjectType": "OmniUiCard",
+                        "VlocityRecordSourceKey": "VlocityRecordSourceKey:0koHp0000000WLeIAM",
+                        "PropertySetConfig": "{\"states\":[{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"Block\",\"element\":\"block\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"label\":\"\\\\{Name}\",\"collapsible\":true,\"record\":\"{record}\",\"collapsedByDefault\":true,\"card\":\"{card}\"},\"type\":\"block\",\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"class\":\"slds-p-around_x-small\",\"sizeClass\":\"slds-size_12-of-12\"},\"children\":[{\"name\":\"FlexCard\",\"element\":\"childCardPreview\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"cardName\":\"FC_ChildContacts\",\"recordId\":\"{recordId}\",\"cardNode\":\"{record.Contacts.records}\",\"selectedState\":\"Active\",\"isChildCardTrackingEnabled\":false,\"parentAttribute\":{\"AccountID\":\"{Id}\",\"AccountName\":\"{Name}\"}},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12\"},\"elementLabel\":\"FlexCard-0\",\"key\":\"element_element_block_0_0_childCardPreview_0_0\",\"parentElementKey\":\"element_block_0_0\"}],\"elementLabel\":\"Block-1\"}]}},\"childCards\":[\"FC_ChildContacts\"],\"actions\":[],\"omniscripts\":[],\"documents\":[]}],\"dataSource\":{\"type\":\"Query\",\"value\":{\"dsDelay\":\"\",\"query\":\"SELECT Id, Name FROM Account\",\"resultVar\":\"\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[]},\"title\":\"FC_Parent_Accounts\",\"enableLwc\":true,\"isFlex\":true,\"theme\":\"slds\",\"selectableMode\":\"Multi\",\"xmlObject\":{\"targetConfigs\":\"PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==\",\"targets\":{\"target\":[\"lightning__RecordPage\",\"lightning__AppPage\",\"lightning__HomePage\"]}},\"xmlJson\":[{\"@attributes\":{\"targets\":\"lightning__AppPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}},{\"@attributes\":{\"name\":\"recordId\",\"type\":\"String\"}}]},{\"@attributes\":{\"targets\":\"lightning__RecordPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}}]}],\"lwc\":{\"DeveloperName\":\"cfFC_Parent_Accounts_1_LBS\",\"Id\":\"0RbHp000001KohAKAS\",\"MasterLabel\":\"cfFC_Parent_Accounts_1_LBS\",\"NamespacePrefix\":\"c\",\"ManageableState\":\"unmanaged\"},\"listenToWidthResize\":false}",
+                        "OmniUiCardType": "Parent",
+                        "Id": "0koHp0000000WLeIAM",
+                        "VlocityDataPackIsIncluded": true,
+                        "StylingConfiguration": "",
+                        "UniqueName": "FC_Parent_Accounts_LBS_1"
+                    }
+                ],
+                "VlocityDataPackType": "FlexCard",
+                "VlocityDataPackKey": "bd2e2089dd06be420c6ca2b2793d012b"
+            },
+            "VlocityDataPackAllRelationships": {
+                "40e4c7ff101ee680c34f201db993e7ed": "Reference by Salesforce Id"
+            },
+            "DataPackAttachmentSize": 8570,
+            "DataPackAttachmentParentId": "0ncHp0000004xRKIAY",
+            "DataPackAttachmentId": "00PHp00001ggnMJMAY",
+            "ActivationStatus": "Ready"
+        }
+    ],
+    "dataPackId": "0ncHp0000004xRKIAY",
+    "alreadyExportedKeys": [],
+    "name": "FC_Parent_Accounts",
+    "description": "",
+    "version": 1,
+    "Status": "Error"
+}
